@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+    background-color:cyan;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+img {
+ width: 100%;
+ 
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+}
+#chapeau{
+    font-size: larger;
+}
+
+.rouge{
+ color: red;
+}
+.verte{
+    color: green;
+
+}
