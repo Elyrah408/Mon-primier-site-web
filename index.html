@@ -6,40 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon premier site web</title>
 
-    <link rel="stylesheet" href="mise-en-pages.css">
+    <style type="text/css">
+        
+     *{
+
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+
+     }
+
+     nav{
+
+        width: 100%;
+        height: 75px;
+        padding: 0px 100px;
+        position: fixed;
+        background-image:linear-gradient(#033747,#012733) ;
+     }
+
+    
+        
+     
+
+     nav ul{
+        float: right;
+     }
+     nav li{
+        display: inline-block;
+        list-style: none;
+
+     }
+      nav li a{
+
+        font-size: 18px;
+        text-decoration: none;
+        cursor: pointer;
+        padding:0px 40px;
+        color: white;
+        text-transform: uppercase;
+        margin: 0px;
+        place-items: center;
+      }
+
+      nav li a:hover{
+
+        color:#ff8c69;
+        transition: all;
+      }
+
+   .content_item img{
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+   }
+    </style>
 </head>
-<header>
+
 <body>
 
   
     <nav>
+        <div class="logo">     
+            <p>Navbar</p>
+        </div>
         
-        <ul>
-        <li><a href="index.html">Accuille</a></li>
-        <li> <a href="project.html">Contact</a></li>
-        <li> <a href="page3.html">Resgeration</a></li>
-
-        </ul>
+           <ul>
+                <li> <a href="project.html" target="_blank">Accuile</a></li>
+                <li> <a href="page3.html" target="_blank">service</a></li>
+                <li> <a href="project.html" target="_blank">inscription</a></li>
+                <li> <a href="project.html" target="_blank">Contact</a></li>
+           </ul>
     </nav>
-    <h1 class="rouge">Mon premièr page HTML</h1>
-
-</header>
-    <p>A consulter : <a href="https://www.auer404.com/cours/">auer404.com/cours</a></p>
-
-    <img src="image-code.jpg"  alt="Des balises HTML">
-
-    <p id="chapeau">Ceci est une page HTML. On a vu qu'en utilisant le bon format de fichier et en mettant en place un <span class="rouge">système de balises</span>, on peut obtenir un résultat visuel en ouvrant cette page dans un navigateur.</p>
-
-    <p><button>Ceci est un bouton</button></p>
     
-    <p>Observons maintenant le <span class="vert">comportement</span> du texte par défaut sur une telle page...</p>
 
-    <p>Si on ne précise pas, à nouveau via <span class="rouge">des balises</span>, quelle portion de texte est le titre, laquelle est un paragraphe, etc, il n'y aura <span class="vert">aucune mise en forme</span> et on perd même nos retours à la ligne !</p>
-
-    <p><strong>Les balises ont en fait une double utilité : mise en forme visuelle et bonne structuration du contenu.</strong> On garde à l'esprit qu'une page web doit être lisible non seulement par des visiteurs humains, mais aussi par des "machines" : robots d'indexation, dispositifs à destination des mal/non-voyants, etc.</p>
-
-    <a target="_blank" href="https://www.google.com">Un lien</a>
-
-    
+   <div class="content_item">
+       <img src="service.jpg" alt="advertisment">
+   </div>
 </body>
 </html>
