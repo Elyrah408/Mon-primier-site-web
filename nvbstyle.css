@@ -22,7 +22,7 @@
 
  .navbar{
     padding: 50px;
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -123,12 +123,58 @@
   }
 
  
-  footer{
-    padding: 20px;
-background-color: aqua;
-text-align: center;
-font-weight: bold;
-color: white;
+  .foot{
 
+padding: 70px 0;
+background-color:  #24262b;
+box-sizing: border-box;
+cursor: pointer;
 
   }
+  .foot-container{
+    max-width: 1170px;
+    margin: auto;
+
+  }
+  .foot.ul{
+    list-style: none;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-col1{
+
+    width: 20%;
+    padding: 0 15px;
+
+  }
+ .footer-col1 h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin: 30px;
+  font-weight: 500;
+  position: relative;
+ }
+
+ .footer-col1 h4::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+ }
+ 
+
+
+ .footer-col1 ul li a{
+  display: block;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 15px;
+ }
