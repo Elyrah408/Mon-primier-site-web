@@ -52,7 +52,7 @@
   }
   .navbar .nav-link ul li.active a{
 
-    color: rgb(224, 70, 70);
+    color: rgb(32, 125, 211);
     font-weight: 600;
   }
 
@@ -76,7 +76,7 @@
       padding: 0;
     }
 
-    .navbar .logo {
+  .navbar .logo {
     position: absolute;
     top: 40px;
     right: 30px;
@@ -91,7 +91,7 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.20);
+    background-color: rgba(170, 15, 15, 0.699);
     backdrop-filter: blur(8px);
     display: flex;
     justify-content: center;
