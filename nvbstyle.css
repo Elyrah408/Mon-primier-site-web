@@ -9,28 +9,36 @@
 
 
  body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;  
+  
  }
 
- header{
 
-    height: 100vh;
-    width: 100vw;
-    background-image: url(image-code.jpg);
-    background-size: cover;
- }
 
  .navbar{
+    height: 70px;
+    width: 100vw;
     padding: 50px;
-    position: fixed;
     display: flex;
+    position: fixed;
     justify-content: space-between;
     box-sizing: border-box;
     align-items: center;
- }
+    background-image:linear-gradient(#033747,#012733) ;
+   }
+
+    .navbar a:hover{
+      color: rgb(239, 231, 231);
+      font-size: large;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
 
  .navbar a{
-    color: white;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
  }
   .navbar .logo{
 
@@ -45,21 +53,21 @@
   }
 
   .navbar .nav-link ul li{
-    margin: 0 25px;
+    margin: 0 35px;
 
     
    
   }
   .navbar .nav-link ul li.active a{
 
-    color: rgb(32, 125, 211);
+    color: rgb(224, 70, 70);
     font-weight: 600;
   }
 
   .navbar .menue-icon{
     display: none;
-    position: absolute;
-    top: 50px;
+    position: fixed;
+    top: 30px;
     left: 50px;
     width: 35px;
 
@@ -76,9 +84,9 @@
       padding: 0;
     }
 
-  .navbar .logo {
+    .navbar .logo {
     position: absolute;
-    top: 40px;
+    top: 30px;
     right: 30px;
     }
    .navbar .menue-icon{
@@ -91,7 +99,7 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(170, 15, 15, 0.699);
+    background-color: rgba(4, 4, 4, 0.388);
     backdrop-filter: blur(8px);
     display: flex;
     justify-content: center;
@@ -123,58 +131,14 @@
   }
 
  
-  .foot{
+footer{
 
-padding: 70px 0;
+
 background-color:  #24262b;
 box-sizing: border-box;
 cursor: pointer;
+width: 100vw;
+color: aliceblue;
+position: static;
 
   }
-  .foot-container{
-    max-width: 1170px;
-    margin: auto;
-
-  }
-  .foot.ul{
-    list-style: none;
-  }
-  .row{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .footer-col1{
-
-    width: 20%;
-    padding: 0 15px;
-
-  }
- .footer-col1 h4{
-  font-size: 18px;
-  color: #ffffff;
-  text-transform: capitalize;
-  margin: 30px;
-  font-weight: 500;
-  position: relative;
- }
-
- .footer-col1 h4::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #e91e63;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
- }
- 
-
-
- .footer-col1 ul li a{
-  display: block;
-  color: #ffffff;
-  text-transform: capitalize;
-  font-weight: 300;
-  font-size: 15px;
- }
