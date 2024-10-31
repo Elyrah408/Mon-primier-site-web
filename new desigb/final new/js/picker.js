@@ -86,7 +86,7 @@
 
             //  alert(rdh);
 
-             let data=[rdh,rth,rph];
+             let data=[rgbvalue,rdh,rth,rph];
 
              localStorage.setItem("mycolorvalues", JSON.stringify(data));
 

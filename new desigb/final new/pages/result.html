@@ -10,26 +10,43 @@
 
 </head>
 <body>
+  <button id ="show">show</button>
+  <button id="hide">hide</button>
 
-    <div id="pip" class="left"> <button>kk</button></div>
-   <div class="container">
+<div class="general" id ="conshow">
+    <button id="colorButton">Select Color</button>
+    <input type="color" id="colorPicker" style="display: none;" />
+    <button id="Submit" class="button-85" role="button">Submit</button>
+ 
+  <div class="pagecontainer">
+
    
-    
-    <div id="tit" class="center">hy </div>
-         
-         <div id="dueh" class="right"><p>hi</p>
-         </div>
-         <div id="dugg" class="end"><p>hi5</p>
-         </div>
-    </div> 
-     
-  <script>
 
-let retrievedArray = JSON.parse(localStorage.getItem("mycolorvalues"));
-// alert(retrievedArray[0]);
-//  document.getElementById("bodycolor").style.backgroundColor= "RGB("+retrievedArray[0]+")";
-//  document.getElementById("due").style.backgroundColor= "RGB("+retrievedArray[1]+")";
-//  document.getElementById("tit").style.backgroundColor= "RGB("+retrievedArray[2]+")";
-  </script>  
+  <div id="body1" class="left"><p id="rgbval"></p></div>
+ 
+   <div class="container">
+          <div id="dueh" class="top-right"><p>hi</p></div>
+          <div id="tit" class="center_right"><p>hygfdljqslmgd</p></div>
+          <div id="pro" class="end_right"><p>hi5</p></div>
+    </div> 
+    
+  </div>
+
+  <button id ="add">+</button>
+  
+  <!-- <input type="number" id="inputnumber"> -->
+</div>
+<!-- <script> document.getElementById("show").addEventListener("click" ,()=>{
+  alert("show");
+  let detail = document.querySelectorAll(".general");
+  detail.classList.remove("visible");
+  
+}); -->
+
+
+</script>
+
+  <script src="../js/result.js"></script>
+  <script src="../js/picker.js"></script>
 </body>
 </html>
