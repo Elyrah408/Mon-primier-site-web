@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/print.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="content">
+        <h1>Selected Color list</h1>
+        <ul id="array-data"></ul>
+      </div>
+      <button onclick="generatePDF()" class="button-52">Download PDF</button>
+      
+      <script>
+        // Sample array data
+        let retrievedArray = JSON.parse(localStorage.getItem("forPrintData"));
+        // const data = ["This is line 1", "This is line 2", "This is line 3"];
+      
+        // Populate HTML list with array data
+        const list = document.getElementById('array-data');
+        retrievedArray.forEach(item => {
+          const listItem = document.createElement('li');
+          listItem.textContent = item;
+          list.appendChild(listItem);
+        });
+      
+        // Function to generate PDF from HTML content
+        function generatePDF() {
+          const element = document.getElementById('content');
+          html2pdf().from(element).save("Color_choice.pdf");
+        }
+      </script>
+</body>
+</html>

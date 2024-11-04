@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <style>
+        body{
+          
+            background-color: rgb(255, 255, 255);
+            
+        }
+
+
+        .row{
+            display: inline-block;
+
+            
+        }
+     
+
+        p{
+            width:19vw;
+            text-align: left;
+        }
+         section{
+         height: 100vh;
+         width: 18vw;
+         margin: 3px;
+         margin-left: 15px;
+         text-align: center;
+         font-family: Georgia, 'Times New Roman', Times, serif;
+         color:rgb(0, 0, 0);
+         
+         }   
+       
+        #fir{
+            background-color: rgb(17, 12, 12);
+
+        }
+        #sec{
+            background-color: red;
+
+        }
+        #th{
+            background-color: green;
+
+        }
+        #forth{
+            background-color: blue;
+
+        }
+        #fifth{
+            background-color:black;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="row">
+        <label for="fir" id="forlb"></label>
+        <section id="fir"></section>
+
+    </div>
+    
+    <div class="row">
+        <section id="sec">2</section>
+    
+    </div>
+    <div class="row">
+        <section id="th">3</section> 
+       
+    </div>
+    <div class="row">
+        <section id="forth">4</section>
+    </div>
+    <div class="row">
+        <section id="fifth">5</section>
+
+    </div>
+
+    <!-- <section id="sec" class="genral">2</section>
+    <section id="th" class="genral">3</section>
+    <section id="forth" class="genral">4</section>
+    <section id="fifth" class="genral">5</section> -->
+
+
+    <script>
+    let arrayvalue=[];
+    for(x=0; x<15; x++){
+     let y = Math.floor(Math.random() * 254);
+     arrayvalue.push(y);
+
+    }
+    // alert(arrayvalue[0]+","+arrayvalue[1]+","+arrayvalue[2]);
+
+    document.getElementById("fir").innerHTML= "RGB("+arrayvalue[0]+","+arrayvalue[1]+","+arrayvalue[2]+")";
+    document.getElementById("fir").style.backgroundColor="rgb("+arrayvalue[0]+","+arrayvalue[1]+","+arrayvalue[2]+")";
+
+    document.getElementById("sec").innerHTML= "RGB("+arrayvalue[3]+","+arrayvalue[4]+","+arrayvalue[5]+")";
+    document.getElementById("sec").style.backgroundColor="rgb("+arrayvalue[3]+","+arrayvalue[4]+","+arrayvalue[5]+")";
+
+    document.getElementById("th").innerHTML= "RGB("+arrayvalue[6]+","+arrayvalue[7]+","+arrayvalue[8]+")";
+    document.getElementById("th").style.backgroundColor="rgb("+arrayvalue[6]+","+arrayvalue[7]+","+arrayvalue[8]+")";
+
+    document.getElementById("forth").innerHTML= "RGB("+arrayvalue[9]+","+arrayvalue[10]+","+arrayvalue[11]+")";
+    document.getElementById("forth").style.backgroundColor="rgb("+arrayvalue[9]+","+arrayvalue[10]+","+arrayvalue[11]+")";
+
+    document.getElementById("fifth").innerHTML= "RGB("+arrayvalue[12]+","+arrayvalue[13]+","+arrayvalue[14]+")";
+    document.getElementById("fifth").style.backgroundColor="rgb("+arrayvalue[12]+","+arrayvalue[13]+","+arrayvalue[14]+")";
+
+    //"rgb("+arrayvalue[0]+","+arrayvalue[1]+","+arrayvalue[2]+");"
+
+    </script>
+
+</body>
+</html>
