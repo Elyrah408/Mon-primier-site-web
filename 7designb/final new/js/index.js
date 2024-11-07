@@ -140,7 +140,10 @@ convertColorBtn.addEventListener('click', (event) => {
 ////langue
 
 
-const transalation = {  fr: {select:"Langue", colorpic:"Sélectionnez votre couleur", submit:"soumettre"},
+const transalation = {  fr: {select:"Langue",
+                              hometext1:"Choisissez le nombre de couleurs qu'il vous faut", 
+                              header1:"Daltonia",
+                              submit:"soumettre"},
                         en: {select:"Language", colorpic:"Select your color", submit:"Submit"},
                         ar: {select:"لغة", colorpic:"حدد اللون الخاص بك", submit:"يُقدِّم"}
                       };
