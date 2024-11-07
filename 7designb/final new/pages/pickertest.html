@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <title>Deltonisme</title>
+</head>
+<body>
+
+
+    <div class="langb">
+    <label id="selectlbl">Language</label>
+       <select id ="language_select" onchange="setLanguage(this.value)">
+         <option value="en">English</option>
+         <option value="fr">français</option>
+         <option value="ar">Arbi</option>
+       </select>
+    </div>
+
+
+    <div class="wrapper">
+    <button id="colorButton">choisir votre Colors</button>
+    <input type="color" id="colorPicker" style="display:none" style="visibility: hidden"  />
+    <button id="Submit" class="button-85" role="button">Submit</button>
+    </div>
+  
+
+
+<script src="../js/picker.js"></script>
+ 
+
+</body>
+</html>
+
+

@@ -1,0 +1,73 @@
+<!--
+            ░       ░                             ░    ░   
+   .*✶░█▀▄ █ █▀▄▀█ █ ▀█▀ █▀█ █ █░█ █▀ █▀▀ █░█ █▀█ █▀█ █░✶*..
+    ..*█▄▀ █ █░▀░█ █ ░█░ █▀▄ █ ▀▀█ ▄█ █▄▄ █▀█ █▄█ █▄█ █▄▄*✶.
+                                github:DimitriFromSchool::.
+ ────────────────────────────────────────────────────────────
+          Project: Daltonia
+                     Created: 2024-10-30, 18:28:19 |
+                     Updated: 2024-11-03, 11:59:19 | 
+ ────────────────────────────────────────────────────────────
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rammetto+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mdbassit/Coloris@latest/dist/coloris.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/mdbassit/Coloris@latest/dist/coloris.min.js"></script>
+     <link rel="icon" type="image/x-icon" href="../img/Daltonia.webp">
+    <title>Daltonia</title>
+   
+</head>
+
+
+
+<body>
+
+  <div class="langb">
+    <label id="selectlbl">Language</label>
+       <select id ="language_select" onchange="setLanguage(this.value)">
+         <option value="en">English</option>
+         <option value="fr">français</option>
+         <option value="ar">Arbi</option>
+       </select>
+    </div>
+
+    
+  <!-- logo -->
+  <div class="logo">
+  <div class="eye-container">
+    <div class="eye">
+        <div class="iris">
+          <div class="pupil"></div>
+        </div>
+    </div>     
+    </div>
+    <h1>DALTONIA</h1> 
+</div>
+  <!-- menu select -->
+  <form class="homemenu">
+    <p id="hometext1">Choisissez le nombre de couleurs qu'il vous faut
+    </p>
+      <div class="commands">
+        <button id="homebtn-delete" class="btn-style-1">-</button>
+        <p id="colorscounter"> 0 </p>
+        <button id="homebtn-add" class="btn-style-1">+</button>
+      </div> 
+      <div class="selected-colors">
+      </div>
+      <input type="submit" value="Convertir" class="homebtn-convert">
+    </form>
+
+
+ 
+
+  <script src="../js/index.js"></script>
+</body>
+</html>
