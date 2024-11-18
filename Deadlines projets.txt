@@ -1,0 +1,17 @@
+Projet 1 : Premier site perso
+
+> Pour le 10/12
+
+- Un site sur un thème au choix
+- Comportant 3 pages (ou plus) ou éventuellement en "one-page" (mais il faut que ce soit un choix pertinent)
+- Permettant de naviguer entre les pages / sections
+- S'adaptant un minimum aux diverses tailles d'écran / fenêtres
+- Respectant autant que possible les bonnes pratiques HTML
+- Frameworks HTML/CSS autorisés, mais pas de simples copiés-collés générés automatiquement
+- Publié via GitHub (avoir une version visitable)
+
+Projet 2 : Outil daltonisme
+
+> Présentable : au moins un prototype, fonctionnel autant que possible, pour le 16/12
+> Modalités : à préciser (je vous tiens au courant !)
+- Publié via GitHub (avoir une version visitable)
