@@ -1,0 +1,34 @@
+body{
+    background-color: rgba(164, 233, 147, 0.74);
+    margin: 0;
+    padding: 0;
+
+}
+
+.formDec{
+
+    position:fixed;
+    margin-top: 30%;
+    margin-left: 40%;
+    display: flex;
+    border: 2px;
+    border-color: black;
+  
+}
+
+#login{
+    margin-top: 10px;
+    height: 35px;
+    width: 15vw;
+    border-radius: 10px;
+    background-color: rgb(14, 14, 75);
+    color: white;
+    font-weight: 500;
+}
+
+#emailval{
+ padding-top: 10px;
+ box-sizing: border-box;
+ margin-top: 10px;
+border-color: brown;
+}

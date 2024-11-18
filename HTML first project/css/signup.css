@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(138, 154, 226);
+}
+
+.register_form{
+    height: 35vh;
+    width: 40%;
+
+    margin-top: 30%;
+    position: fixed;
+    margin-left: 40%;
+    justify-content: center;
+
+}
+
+input{
+
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border-color: rgb(137, 137, 238);
+   
+}
+
+#onfirm{
+    height: 25px;
+    width: 20vw;
+
+    border-radius: 10px;
+    background-color: rgb(9, 9, 66);
+    font-weight: 600;
+    color: white;
+}

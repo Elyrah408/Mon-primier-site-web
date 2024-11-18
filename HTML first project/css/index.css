@@ -1,0 +1,72 @@
+*{
+margin: 0;
+padding: 0;
+
+text-decoration: none;
+list-style: none;
+
+}
+
+
+
+.navbar{
+    height: 5%;
+    width: 100vw;
+    padding: 30px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: rgba(15, 15, 46, 0.918);
+
+   }
+
+ .navbar a{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+      
+
+                    }
+
+
+.navbar .logo{
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+.navbar a:hover{
+    color: rgb(239, 231, 231);
+    font-size: large;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  .navbar .nav-link ul{
+    display: flex;
+   
+  }
+
+  .navbar .nav-link ul li{
+    margin: 0 40px;
+           }
+
+  .navbar .nav-link ul li.active a{
+       color: rgb(224, 70, 70);
+       font-weight: 600;
+        }
+
+  .navbar .menue-icon{
+    display: none;
+    position: fixed;
+    top: 30px;
+    left: 50px;
+    width: 35px;
+
+  }
+
+  .mobile-menu {
+     margin-left: 0;
+  }
+/*     
+
+  for other screen */
